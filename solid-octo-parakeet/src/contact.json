@@ -1,0 +1,17 @@
+[
+    {
+        "id": 2,
+        "format": "GitHub",
+        "details": "https://www.github.com/IamAlphena"
+    },
+    {
+        "id": 3,
+        "format": "LinkedIn",
+        "details": "https://www.linkedin.com/in/kimberlyhage/"
+    },
+    {
+        "id": 4,
+        "format":"Resume",
+        "details": "https://docs.google.com/document/d/1V-JKj4VfPURT4fkRT9U5voA1sTbKiIUHxeIL2Ii9FMk/edit?usp=sharing"
+    }
+]
