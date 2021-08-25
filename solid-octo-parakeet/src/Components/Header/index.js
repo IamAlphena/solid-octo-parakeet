@@ -8,8 +8,10 @@ function Header() {
             <div className="photo">
                 <img src={selfie} alt="self" />
             </div>
+            <div className="textspace">
             <div className="writer">
                 <h1>Hello. </h1>
+            </div>
             </div>
         </div>
     )
