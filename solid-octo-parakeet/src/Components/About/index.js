@@ -1,16 +1,22 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import blox from '../../images/blox.png';
 
 function About() {
     return (
         <>
     <Carousel>
   <Carousel.Item interval={6000}>
-    <img
-      className="d-block "
-      src="http://placekitten.com/g/1000/150"
+    <div 
+    className='d-block carimg'>
+
+    </div>
+
+    {/* <img
+      className="d-block"
+      src={blox}
       alt="First slide"
-    />
+    /> */}
     <Carousel.Caption>
       <h3>Front End Developer</h3>
       <p>I enjoy taking a new idea and giving it life on screen. </p>
@@ -19,7 +25,7 @@ function About() {
   <Carousel.Item interval={5000}>
     <img
       className="d-block "
-      src="http://placekitten.com/g/1000/150"
+      src={blox}
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -29,8 +35,8 @@ function About() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="http://placekitten.com/g/1000/150"
+      className="d-block"
+      src={blox}
       alt="Third slide"
     />
     <Carousel.Caption>

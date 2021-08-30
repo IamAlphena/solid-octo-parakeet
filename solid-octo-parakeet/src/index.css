@@ -359,3 +359,14 @@ Cards
   color: white;
   transform: rotateY(180deg);
 }
+
+.car{
+  width: 100%;
+  height: 150px;
+}
+
+.carimg{
+  background-image: url(./images/blox.png);
+  background-repeat: repeat-x ;
+
+}
