@@ -1,26 +1,28 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import blox from '../../images/blox.png';
+import blank from '../../images/blaaaank.png'
 
 function About() {
     return (
         <>
+            <div 
+    className='carimg'>
     <Carousel>
+
   <Carousel.Item interval={6000}>
-    <div 
-    className='d-block carimg'>
 
-    </div>
 
-    {/* <img
+    <img
       className="d-block"
-      src={blox}
+      src={blank}
       alt="First slide"
-    /> */}
+    />    
     <Carousel.Caption>
       <h3>Front End Developer</h3>
       <p>I enjoy taking a new idea and giving it life on screen. </p>
     </Carousel.Caption>
+
   </Carousel.Item>
   <Carousel.Item interval={5000}>
     <img
@@ -44,7 +46,9 @@ function About() {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
+
 </Carousel> 
+</div>
        </>
     )
 }
