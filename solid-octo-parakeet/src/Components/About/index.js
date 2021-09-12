@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import blox from '../../images/blox.png';
-import blank from '../../images/blaaaank.png'
+import box from '../../images/box.png';
 
 function About() {
     return (
@@ -14,8 +13,8 @@ function About() {
 
 
     <img
-      className="d-block"
-      src={blank}
+      className="d-block h-150"
+      src={box}
       alt="First slide"
     />    
     <Carousel.Caption>
@@ -27,7 +26,7 @@ function About() {
   <Carousel.Item interval={5000}>
     <img
       className="d-block "
-      src={blox}
+      src={box}
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -38,7 +37,7 @@ function About() {
   <Carousel.Item>
     <img
       className="d-block"
-      src={blox}
+      src={box}
       alt="Third slide"
     />
     <Carousel.Caption>

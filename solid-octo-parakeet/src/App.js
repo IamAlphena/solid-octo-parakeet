@@ -15,6 +15,7 @@ function App() {
    <>
     <Header />
     <About />
+    <div className="spacer"></div>
     <Projects/>
   
     <Footer /> 
