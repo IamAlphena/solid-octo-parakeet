@@ -168,6 +168,30 @@ Content
 }
 
 
+.car{
+  width: 100%;
+  height: 150px;
+}
+
+.carimg{
+  background-image: url(./images/circles.jpg);
+  background-repeat: repeat-x ;
+  width: 100%;
+  height: 150px;
+  /* opacity: 0.6; */
+/*  position: absolute;
+  top: 400px;
+  z-index: -1; */
+}
+
+.darken{
+  color: #301b3f;
+  text-shadow:
+   -1px -1px 0 #D8B9C3,  
+    1px -1px 0 #D8B9C3,
+    -1px 1px 0 #D8B9C3,
+     1px 1px 0 #D8B9C3;
+}
 
 #examples p{
   visibility: hidden;
@@ -298,10 +322,6 @@ Cards
   width: 18rem;
 }
 
-/* .container {
-  margin: 10px;
-} */
-
 .item {
   font-size: 12px;
   /* color: red; */
@@ -314,8 +334,7 @@ Cards
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  border: 2px solid #151515;
 }
 
 .flip-card img {
@@ -358,19 +377,4 @@ Cards
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
-}
-
-.car{
-  width: 100%;
-  height: 150px;
-}
-
-.carimg{
-  background-image: url(./images/blox.png);
-  background-repeat: repeat-x ;
-  width: 100%;
-  height: 150px;
-/*  position: absolute;
-  top: 400px;
-  z-index: -1; */
 }

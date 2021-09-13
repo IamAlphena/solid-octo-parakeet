@@ -1,25 +1,32 @@
 import React from 'react';
-import quiz from '../../images/quiz1.png';
+import ExampleCard from '../../Example Card';
+import projects from '../../projects.json';
 
-function Projects() {
+class Examples extends React.Component {
+    
+    state = {
+        projects
+    };
+
+    render() {
     return (
         <>
-        <div className="flip-card">
-            <div className="flip-card-inner">
-                <div className="flip-card-front">
-                    <img src={quiz} alt="img"/>
-
-                </div>
-                <div className="flip-card-back">
-                    <h1> Test </h1>
-                    <p> Much Test</p>
-                    <p> Much Wow</p>
-                </div>
-            </div>
-
+        <div className='container'>
+        {this.state.projects.map(info =>(
+            <ExampleCard
+            key={info.id}
+            project={info.project}
+            image={info.image}
+            alttext={info.alttext}
+            details={info.details}
+            deploy={info.deploy}
+            repo={info.repo}
+            tech={info.tech}
+             />
+        ))}
         </div>
         </>
-    )
+    )}
 }
 
-export default Projects;
+export default Examples;
