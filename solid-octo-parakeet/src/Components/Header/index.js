@@ -1,5 +1,5 @@
 import React from 'react';
-import selfie from '../../images/selfie.jpg'
+import selfie from '../../images/updatedselfie.jpg'
 
 
 function Header() {

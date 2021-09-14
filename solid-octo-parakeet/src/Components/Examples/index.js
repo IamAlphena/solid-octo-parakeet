@@ -11,7 +11,9 @@ class Examples extends React.Component {
     render() {
     return (
         <>
+           <h1 className="center">Previous Work</h1>
         <div className='container'>
+         
         {this.state.projects.map(info =>(
             <ExampleCard
             key={info.id}

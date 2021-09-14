@@ -4,6 +4,7 @@ function ExampleCard(props){
 
     return(
     <>
+    <div className="cardspace">
     <div className="flip-card">
     <div className="flip-card-inner">
         <div className="flip-card-front">
@@ -19,6 +20,7 @@ function ExampleCard(props){
         </div>
     </div>
 
+</div>
 </div>
 </>
     )

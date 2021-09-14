@@ -333,13 +333,13 @@ Cards
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 200px;
+  height: 350px;
   border: 2px solid #151515;
 }
 
 .flip-card img {
   width: 300px;
-  height: 200px;
+  height: 350px;
 }
 
 /* This container is needed to position the front and back side */
@@ -374,7 +374,32 @@ Cards
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #301b3f;
+  padding: 5px;
   color: white;
   transform: rotateY(180deg);
+}
+
+.cardspace{
+  padding: 10px;
+}
+
+.center{
+  text-align: center;
+  color: #827397;
+}
+
+/****
+Contact
+****/
+.contactcard{
+  background-color: #292327;
+  height: 75px;
+  width: 25%;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.contactcard h3{
+  color: #B4A5A5;
 }
